@@ -1,4 +1,5 @@
 import { nanoid } from "nanoid";
+import CalendarBodyActivity from "./CalendarBodyActivity";
 
 export default function CalendarBodyDay(props) {
   return (
@@ -28,9 +29,11 @@ export default function CalendarBodyDay(props) {
             }`;
 
             return (
-              <div className={classes} key={nanoid()}>
-                {activity?.type}
-              </div>
+              <CalendarBodyActivity
+                key={nanoid()}
+                classes={classes}
+                activity={activity}
+              />
             );
           })}
       </div>

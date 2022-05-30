@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { DaysActivitiesContext } from "./Calendar";
 import CalendarBodyDay from "./CalendarBodyDay";
 
@@ -40,7 +40,10 @@ export default function CalendarBodyDays({ className }) {
 
       <section className="calendar__body--days">
         <CalendarBodyDay
-          styling={{ gridTemplateRows: `repeat(${maxActivities}, 1fr)` }}
+          styling={{
+            gridTemplateRows: `repeat(${maxActivities}, 1fr)`,
+            position: "relative",
+          }}
           activities={findActivity("monday", activitiesContext)}
           max={maxActivities}
           headerTheme="#FFBE0B"

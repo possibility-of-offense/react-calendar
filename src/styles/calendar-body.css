@@ -23,6 +23,10 @@
   text-align: center;
 }
 
+.present-activity {
+  position: relative;
+}
+
 .calendar__body .calendar__body--days-single-day:last-of-type {
   border-right: 0;
 }
@@ -38,10 +42,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   cursor: pointer;
   background-color: transparent;
   transition: all 0.25s ease-out;
 }
+
+.calendar__body .calendar__body--days-single-day > div > div p {
+  margin: 0;
+}
+
 .calendar__body .calendar__body--days-single-day > div > div:not(.last-el) {
   border-bottom: 1px solid #ddd;
 }
@@ -51,6 +61,15 @@
   > div
   > div.present-activity:hover {
   background-color: #c7ccdb;
+  color: #fff;
+}
+
+.calendar__body
+  .calendar__body--days-single-day
+  > div
+  > div.present-activity:hover
+  .separator {
+  background-color: #fff;
   color: #fff;
 }
 

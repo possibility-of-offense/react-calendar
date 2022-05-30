@@ -8,73 +8,109 @@ const daysActivities = {
   monday: {
     activities: [
       {
-        start: "05:00",
+        start: "07:00",
         end: "08:00",
-        type: "wash dishes",
+        type: "Walk the dog",
+        description: "Should walk the dog | Should feed the dog",
       },
       {
         start: "10:00",
         end: "12:00",
-        type: "wash1 dishes",
+        type: "Study",
+        description:
+          "Should study React | Should study Python | Should passing courses",
       },
       {
         start: "15:00",
         end: "17:00",
-        type: "wash4444 dishes",
+        type: "Meditate",
+        description: "Should meditate | Should train",
       },
     ],
   },
   tuesday: {
     activities: [
       {
-        start: "05:00",
+        start: "07:00",
         end: "08:00",
-        type: "wash dishes",
+        type: "Walk the dog",
+        description: "Should walk the dog | Should feed the dog",
+      },
+      {
+        start: "10:00",
+        end: "12:00",
+        type: "Study",
+        description:
+          "Should study React | Should study Python | Should passing courses",
       },
     ],
   },
   wednesday: {
     activities: [
       {
-        start: "05:00",
+        start: "07:00",
         end: "08:00",
-        type: "wash dishes",
+        type: "Walk the dog",
+        description: "Should walk the dog | Should feed the dog",
+      },
+      {
+        start: "10:00",
+        end: "12:00",
+        type: "Study",
+        description:
+          "Should study React | Should study Python | Should passing courses",
       },
     ],
   },
   thursday: {
     activities: [
       {
-        start: "05:00",
+        start: "07:00",
         end: "08:00",
-        type: "wash dishes",
+        type: "Walk the dog",
+        description: "Should walk the dog | Should feed the dog",
+      },
+      {
+        start: "20:00",
+        end: "22:00",
+        type: "Jogging",
+        description: "Should train | Should eat healty | Should read",
       },
     ],
   },
   friday: {
     activities: [
       {
-        start: "05:00",
+        start: "07:00",
         end: "08:00",
-        type: "wash dishes",
+        type: "Walk the dog",
+        description: "Should walk the dog | Should feed the dog",
       },
     ],
   },
   saturday: {
     activities: [
       {
-        start: "05:00",
+        start: "07:00",
         end: "08:00",
-        type: "wash dishes",
+        type: "Walk the dog",
+        description: "Should walk the dog | Should feed the dog",
+      },
+      {
+        start: "18:00",
+        end: "20:00",
+        type: "Having fun",
+        description: "Should having fun working with React",
       },
     ],
   },
   sunday: {
     activities: [
       {
-        start: "05:00",
+        start: "06:00",
         end: "08:00",
-        type: "wash dishes",
+        type: "Walk the dog",
+        description: "Should walk the dog | Should feed the dog",
       },
     ],
   },
